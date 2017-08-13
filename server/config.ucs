@@ -1,0 +1,66 @@
+<appSettings>
+  <!-- __________________________________ PLAYER SETTINGS __________________________________ -->
+	
+  <add key="startingGems" value="750000" />
+  <add key="startingGold" value="5000000" />
+  <add key="startingElixir" value="5000000" />
+  <add key="startingDarkElixir" value="0" />
+      <!-- Beware, very high values for resources will crash UCS -->
+  <add key="startingTrophies" value="random" />
+      <!-- User starting trophies - set to 'random' for random starting trophies -->
+  <add key="startingLevel" value="1" />
+      <!-- User starting XP level (Beware, 9 is the highest starting level) -->
+      
+  <!-- ________________________________ CUSTOM GAME SETTINGS ________________________________ -->
+	
+  <add key="UpdateUrl" value="http://cof.ftp.sh/" />
+      <!-- Specify where to redirect if the CoC version is outdated -->
+  <add key="useCustomPatch" value="true" />
+      <!-- Specify if the server is using patches (.csv, .sc, ...) -->
+  <add key="patchingServer" value="http://104.154.230.224:8080/cof/" />
+      <!-- Don't forget the trailing slash -->
+  <add key="maintenanceTimeleft" value="0" />
+      <!-- Please set the time in seconds like 1200 seconds for 20 minutes -->
+  <add key="AdminMessage" value="Welcome Clash of Flames visit http://cof.ftp.sh/ for more info"/>
+      <!-- The AdminMessage will be shown in the Inbox of the Players-->
+  <add key="CustomMaintenance" value=""/>
+      <!-- Custom Maintenance Message -->
+ <add key="ClientVersion" value="8.709.21"/>
+      <!-- Required Client Version to connect -->
+      
+  <!-- ____________________________________ UCS SETTINGS ____________________________________ -->
+  <add key="CacheServer" value="true" />
+      <!-- Use Redis as cache server-->
+  <add key="UseWebAPI" value="false" />
+      <!-- Choose if you want to use the Web API-->
+  <add key="APIPort" value="88" /> 
+      <!-- The Port of the WebAPI-->
+  <add key="ServerPort" value="9339"/>
+      <!-- The Port of the Server (default is 9339)-->
+  <add key="LogLevel" value="1"/>
+      <!-- Default for no log = 0, for Full Log = 1, Log only = 2-->
+  <add key="Animation" value="true"/>
+  <!-- Use Start Animation = true/false -->
+  <add key="LicenseKey" value="dda83d0190826d38dab28bd8d84bdce7"/>
+  <!-- _______________________________________________________________________________________ -->
+
+  <!-- ____________________________________ Database SETTINGS ____________________________________ -->
+  <add key="RedisIPAddress" value="127.0.0.1" />
+  <!-- Redis server IP address-->
+  <add key="RedisPort" value="6379" />
+  <!--  Redis server port-->
+  <add key="RedisPassword" value="root" />
+  <!--  Redis server password-->
+
+  <add key="MysqlIPAddress" value="localhost" />
+  <!-- MySql IP Address -->
+  <add key="MysqlPort" value="3306" />
+  <!-- MySql Username -->
+  <add key="MysqlUsername" value="root" />
+  <!-- MySql Username -->
+  <add key="MysqlPassword" value="" />
+  <!--  MySql server password-->
+  <add key="MysqlDatabase" value="ucsdb" />
+  <!--  Redis server password-->
+  <!-- _______________________________________________________________________________________ -->
+</appSettings>
