@@ -4,7 +4,7 @@
   <add key="startingGems" value="750000" />
   <add key="startingGold" value="150000000" />
   <add key="startingElixir" value="150000000" />
-  <add key="startingDarkElixir" value="0" />
+  <add key="startingDarkElixir" value="200000" />
       <!-- Beware, very high values for resources will crash UCS -->
   <add key="startingTrophies" value="random" />
       <!-- User starting trophies - set to 'random' for random starting trophies -->
