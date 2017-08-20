@@ -192,7 +192,7 @@
     <string name="UnsatisfiedLinkErrorReinstallPromptKunlun">We have detected that {GAME} has not been installed successfully. Please uninstall and redownload from the same Android App Store.</string>
     <string name="app_name">Clash of Flames</string>
     <string name="app_id">972855262455</string>
-    <string name="fb_app_id">297484437009394</string>
+    <string name="fb_app_id">1562608210468392</string>
     <string name="backup_api_key">AEdPqrEAAAAI1_tUSmzWxgjz7ojGIxL7gaqq0VByYOFOj3_0yQ</string>
     <string name="googleplay_clientid">972855262455-s867h2tgvnaf3tmrh41u8oheicekrtv1.apps.googleusercontent.com</string>
 </resources>
