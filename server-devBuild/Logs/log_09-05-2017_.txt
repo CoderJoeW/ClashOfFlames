@@ -1,0 +1,36 @@
+Log file created at 09/05/2017 22:47:51
+
+[LOG]    New client connected -> 192.168.1.104 at 09/05/2017 20:48:47
+[LOG]    Message SessionRequest (10100) is handled at 09/05/2017 20:48:47
+[LOG]    Message LoginMessage (10101) is handled at 09/05/2017 20:48:47
+[LOG]    New client connected -> 192.168.1.104 at 09/05/2017 20:50:16
+[LOG]    Message SessionRequest (10100) is handled at 09/05/2017 20:50:16
+[LOG]    Message LoginMessage (10101) is handled at 09/05/2017 20:50:16
+[LOG]    New client connected -> 192.168.1.104 at 09/05/2017 20:50:43
+[LOG]    Message SessionRequest (10100) is handled at 09/05/2017 20:50:43
+[LOG]    Message LoginMessage (10101) is handled at 09/05/2017 20:50:43
+[LOG]    Message KeepAliveMessage (10108) is handled at 09/05/2017 20:50:49
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:50:51
+[LOG]    Message KeepAliveMessage (10108) is handled at 09/05/2017 20:50:54
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:50:55
+[LOG]    Message KeepAliveMessage (10108) is handled at 09/05/2017 20:50:59
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:51:00
+[LOG]    Message KeepAliveMessage (10108) is handled at 09/05/2017 20:51:04
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:51:05
+[LOG]    Message GetDeviceTokenMessage (10113) is handled at 09/05/2017 20:51:05
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:51:06
+[LOG]    Message KeepAliveMessage (10108) is handled at 09/05/2017 20:51:09
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:51:10
+[LOG]    Message KeepAliveMessage (10108) is handled at 09/05/2017 20:51:14
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:51:15
+[LOG]    Message ChangeAvatarNameMessage (10212) is handled at 09/05/2017 20:51:15
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:51:16
+[LOG]    Command 3 has not been handled. at 09/05/2017 20:51:16
+[LOG]    Message AskForAvatarProfileMessage (14325) is handled at 09/05/2017 20:51:17
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:51:18
+[LOG]    Command '519' is handled at 09/05/2017 20:51:18
+[LOG]    Message KeepAliveMessage (10108) is handled at 09/05/2017 20:51:19
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:51:20
+[LOG]    Message KeepAliveMessage (10108) is handled at 09/05/2017 20:51:24
+[LOG]    Message SendGlobalChatLineMessage (14715) is handled at 09/05/2017 20:51:24
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 09/05/2017 20:51:25
