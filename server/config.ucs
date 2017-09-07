@@ -25,7 +25,7 @@
       <!-- The AdminMessage will be shown in the Inbox of the Players-->
   <add key="CustomMaintenance" value=""/>
       <!-- Custom Maintenance Message -->
- <add key="ClientVersion" value="8.709.22"/>
+ <add key="ClientVersion" value="8.709.23"/>
       <!-- Required Client Version to connect -->
       
   <!-- ____________________________________ UCS SETTINGS ____________________________________ -->
