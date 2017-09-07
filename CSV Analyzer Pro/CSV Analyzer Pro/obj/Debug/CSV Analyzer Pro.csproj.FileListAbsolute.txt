@@ -31,3 +31,4 @@ C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyze
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\bin\Debug\CSV Analyzer Pro.pdb
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.exe.manifest
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.application
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.exe.licenses

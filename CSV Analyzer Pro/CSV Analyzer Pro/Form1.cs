@@ -12,6 +12,8 @@ using System.Windows.Forms;
 using Microsoft.VisualBasic.FileIO;
 using System.Threading;
 using System.Reflection;
+using Telerik.WinControls.Data;
+using Telerik.WinControls.UI;
 
 namespace CSV_Analyzer_Pro{
     public partial class Form1 : Form{
@@ -129,12 +131,14 @@ namespace CSV_Analyzer_Pro{
             }
         }
 
-        private void OnColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e) {
-            int index = tabControl1.SelectedIndex;
-            EditHeader eh = new EditHeader(this.UpdateHeader);
-            eh.TextBox1.Text = ds.Tables[index.ToString()].Columns[e.ColumnIndex].ToString();
-            eh.TextBox2.Text = e.ColumnIndex.ToString();
-            eh.Show();
+        private void OnColumnHeaderMouseClick(object sender, GridViewCellEventArgs e) {
+            if (e.Row is GridViewTableHeaderRowInfo) {
+                int index = tabControl1.SelectedIndex;
+                EditHeader eh = new EditHeader(this.UpdateHeader);
+                eh.TextBox1.Text = ds.Tables[index.ToString()].Columns[e.ColumnIndex].ToString();
+                eh.TextBox2.Text = e.ColumnIndex.ToString();
+                eh.Show();
+            }
         }
 
         private void OnSearchCalled() {
@@ -155,10 +159,12 @@ namespace CSV_Analyzer_Pro{
             int index = int.Parse(array[0]);
             //Debug.WriteLine("Index: " + index + " String: " + array[1] + " Table Check: " + ds.Tables[index.ToString()].ToString() + " Column Check: " + ds.Tables[index.ToString()].Columns[index].ColumnName.ToString());
             ds.Tables[pageIndex.ToString()].Columns[index].ColumnName = array[1];
-            DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
+            //DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
+            DisableSortMode(tabControl1.SelectedTab.Controls.OfType<RadGridView>().First());
         }
 
         private void SearchFor(string val) {
+            //BROKEN CODE
             DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
             dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             int pageIndex = tabControl1.SelectedIndex;
@@ -195,6 +201,10 @@ namespace CSV_Analyzer_Pro{
             foreach (DataGridViewColumn column in dgv.Columns) {
                 column.SortMode = DataGridViewColumnSortMode.NotSortable;
             }
+        }
+
+        private void DisableSortMode(RadGridView rgv) {
+            rgv.MasterTemplate.EnableSorting = false;
         }
         #endregion
 
@@ -256,12 +266,12 @@ namespace CSV_Analyzer_Pro{
                     ds.Tables[index.ToString()].Rows.Add(fields);
                 }
                 //Get gridview
-                DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
+                RadGridView rgv = tabControl1.SelectedTab.Controls.OfType<RadGridView>().First();
                 //Attach event handler
-                dgv.ColumnHeaderMouseClick += (s, e) => this.OnColumnHeaderMouseClick(s, e);
+                rgv.CellClick += (s, e) => this.OnColumnHeaderMouseClick(s, e);
                 //Bind data source
-                dgv.DataSource = ds.Tables[index.ToString()];
-                DisableSortMode(dgv);
+                rgv.DataSource = ds.Tables[index.ToString()];
+                DisableSortMode(rgv);
             }
         }
         #endregion
@@ -269,9 +279,14 @@ namespace CSV_Analyzer_Pro{
         #region Helpers
         private void DoubleBuffering(DataGridView dgv, bool setting) {
             Type dgvType = dgv.GetType();
-            PropertyInfo pi = dgvType.GetProperty("DoubleBuffered",
-                  BindingFlags.Instance | BindingFlags.NonPublic);
+            PropertyInfo pi = dgvType.GetProperty("DoubleBuffered",BindingFlags.Instance | BindingFlags.NonPublic);
             pi.SetValue(dgv, setting, null);
+        }
+
+        private void DoubleBuffering(RadGridView rgv,bool setting){
+            Type rgvType = rgv.GetType();
+            PropertyInfo pi = rgvType.GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
+            pi.SetValue(rgv, setting, null);
         }
         #endregion
 
@@ -307,36 +322,22 @@ namespace CSV_Analyzer_Pro{
         #region Commands
         private void NewWindow() {
             TabPage tb = new TabPage();
-            CustomDgv dgv = new CustomDgv();
+            RadGridView rgv = new RadGridView();
             DataTable dt = new DataTable();
 
             tb.Text = "New..";
 
-            #region DataGridView Contructing
-            dgv.Dock = DockStyle.Fill;
-            dgv.ClipboardCopyMode = DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
-            dgv.BackgroundColor = Color.White;
-            dgv.RowHeadersVisible = false;
-            dgv.GridColor = Color.LightGray;
-            dgv.BorderStyle = BorderStyle.None;
-            dgv.EnableHeadersVisualStyles = false;
-            dgv.VirtualMode = true;
-
-            dgv.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.LightGray;
-            dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
-            dgv.ColumnHeadersHeight = 30;
-            DoubleBuffering(dgv, true);
-            //dgv.GetType.InvokeMember("DoubleBuffered", Reflection.BindingFlags.NonPublic Or _Reflection.BindingFlags.Instance Or System.Reflection.BindingFlags.SetProperty, Nothing, dgv, New Object() { True});
-
-            //dgv.Columns(1).DefaultCellStyle.BackColor = Color.Yellow
-
-            //Retired
-            //dgv.Anchor = (AnchorStyles.Top | AnchorStyles.Left);
-            //dgv.ScrollBars = ScrollBars.Both;
+            #region RadGridView Contructing
+            rgv.Dock = DockStyle.Fill;
+            rgv.MasterTemplate.EnableSorting = false;
+            rgv.MasterTemplate.AutoSizeColumnsMode = GridViewAutoSizeColumnsMode.None;
+            rgv.ShowRowHeaderColumn = false;
+            rgv.SelectionMode = GridViewSelectionMode.CellSelect;
+            rgv.ClipboardCopyMode = GridViewClipboardCopyMode.EnableWithoutHeaderText;
+            DoubleBuffering(rgv, true);
             #endregion
 
-            tb.Controls.Add(dgv);
+            tb.Controls.Add(rgv);
             tabControl1.TabPages.Add(tb);
             tabControl1.SelectedTab = tb;
         }
@@ -406,10 +407,11 @@ namespace CSV_Analyzer_Pro{
 
             if(tabCIndex == 0){return;}
 
-            DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
+            //DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
+            RadGridView rgv = tabControl1.SelectedTab.Controls.OfType<RadGridView>().First();
             DataRow dr;
             dr = ds.Tables[tabCIndex.ToString()].NewRow();
-            int index = dgv.CurrentCell.RowIndex;
+            int index = rgv.CurrentCell.RowIndex;
             Debug.WriteLine("Index: " + index);
             ds.Tables[tabCIndex.ToString()].Rows.InsertAt(dr, index + 1);
         }
@@ -419,10 +421,11 @@ namespace CSV_Analyzer_Pro{
 
             if(tabCIndex == 0){return;}
 
-            DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
+            //DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
+            RadGridView rgv = tabControl1.SelectedTab.Controls.OfType<RadGridView>().First();
             DataRow dr;
             dr = ds.Tables[tabCIndex.ToString()].NewRow();
-            int index = dgv.CurrentCell.RowIndex;
+            int index = rgv.CurrentCell.RowIndex;
             ds.Tables[tabCIndex.ToString()].Rows.InsertAt(dr, index);
         }
 
@@ -432,7 +435,8 @@ namespace CSV_Analyzer_Pro{
             if(index == 0){return;}
 
             ds.Tables[index.ToString()].Columns.Add("");
-            DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
+            //DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
+            DisableSortMode(tabControl1.SelectedTab.Controls.OfType<RadGridView>().First());
         }
         #endregion
 
