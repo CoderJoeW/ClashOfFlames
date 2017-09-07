@@ -12,3 +12,22 @@ C:\Users\flameforged\documents\visual studio 2015\Projects\CSV Analyzer Pro\CSV 
 C:\Users\flameforged\documents\visual studio 2015\Projects\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.UpdateAvailable.resources
 C:\Users\flameforged\documents\visual studio 2015\Projects\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.EditHeader.resources
 C:\Users\flameforged\documents\visual studio 2015\Projects\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.Search.resources
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.csprojResolveAssemblyReference.cache
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.exe
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.pdb
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.CheckUpdate.resources
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.EditHeader.resources
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.Form1.resources
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.InvalidLicense.resources
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.Properties.Resources.resources
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.Search.resources
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.UpdateAvailable.resources
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.csproj.GenerateResource.Cache
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.csproj.CoreCompileInputs.cache
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\bin\Debug\CSV Analyzer Pro.exe.config
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\bin\Debug\CSV Analyzer Pro.exe.manifest
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\bin\Debug\CSV Analyzer Pro.application
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\bin\Debug\CSV Analyzer Pro.exe
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\bin\Debug\CSV Analyzer Pro.pdb
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.exe.manifest
+C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.application
