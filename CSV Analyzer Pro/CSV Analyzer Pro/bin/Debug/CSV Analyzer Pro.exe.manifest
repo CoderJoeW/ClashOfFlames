@@ -43,23 +43,15 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Telerik.WinControls" version="2017.2.613.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Telerik.WinControls.GridView" version="2017.2.613.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Telerik.WinControls.UI" version="2017.2.613.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="TelerikCommon" version="2017.2.613.40" publicKeyToken="5BB2A467CBEC794E" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AdvancedDataGridView.dll" size="93696">
+      <assemblyIdentity name="AdvancedDataGridView" version="1.0.21209.18" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Y2bt6kqJyaXL/vzRYco5q2OI0eSjmlbJbfRVGGvsigg=</dsig:DigestValue>
+      </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
@@ -70,7 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>uDB+OllIBEqL0az3it5TmAOOZjHROT5jQ++g/KwwOA4=</dsig:DigestValue>
+        <dsig:DigestValue>R+SAIbmU7OcPBz80UObLC+opLXwSqnvWQwcp4TIJyWU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TenTec.Windows.iGridLib.iGrid.v4.6.dll" size="839680">
+      <assemblyIdentity name="TenTec.Windows.iGridLib.iGrid.v4.6" version="4.6.0.0" publicKeyToken="9D47002745F2416C" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OeSFU5Y9zmv6vEM/1UU2ZmzQwLqdBgjZl2vwKMk8GkA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -90,6 +94,24 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>ejv6NIGZO8nB+WY/JXCMkkwBgK0cJaOScRCB+IqidEY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iGrid Sample VB.Designer.vb" size="2323">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>t3ecazOJgcIspATfrHCZYmHFJdys2uy/E7jlmm9E0i0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iGrid Sample VB.vb" size="404">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EKi6Py6Wl4BLcR/yRiyzPbcjSGOGi8D90CcA5jrIgXI=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
