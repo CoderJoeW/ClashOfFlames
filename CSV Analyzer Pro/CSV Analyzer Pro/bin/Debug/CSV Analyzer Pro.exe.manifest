@@ -45,6 +45,7 @@
   <dependency>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AdvancedDataGridView.dll" size="93696">
       <assemblyIdentity name="AdvancedDataGridView" version="1.0.21209.18" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -74,6 +75,8 @@
 =======
 =======
 >>>>>>> parent of d83f031... Various Changes
+=======
+>>>>>>> parent of d83f031... Various Changes
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CSV Analyzer Pro.exe" size="2357768">
       <assemblyIdentity name="CSV Analyzer Pro" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
 >>>>>>> parent of d83f031... Various Changes
@@ -84,7 +87,11 @@
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <dsig:DigestValue>OeSFU5Y9zmv6vEM/1UU2ZmzQwLqdBgjZl2vwKMk8GkA=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>tLCWSo7nFsiBh4F7KRFr1lpD8hM8uDEYk9B21KxYbmk=</dsig:DigestValue>
+>>>>>>> parent of d83f031... Various Changes
 =======
         <dsig:DigestValue>tLCWSo7nFsiBh4F7KRFr1lpD8hM8uDEYk9B21KxYbmk=</dsig:DigestValue>
 >>>>>>> parent of d83f031... Various Changes

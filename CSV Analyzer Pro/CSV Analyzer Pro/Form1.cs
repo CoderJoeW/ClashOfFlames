@@ -14,7 +14,10 @@ using System.Threading;
 using System.Reflection;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
 =======
@@ -143,6 +146,7 @@ namespace CSV_Analyzer_Pro{
         private void OnColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e) {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 int index = tabControl1.SelectedIndex;
                 EditHeader eh = new EditHeader(this.UpdateHeader);
                 eh.TextBox1.Text = ds.Tables[index.ToString()].Columns[e.ColumnIndex].ToString();
@@ -151,12 +155,17 @@ namespace CSV_Analyzer_Pro{
 =======
 =======
 >>>>>>> parent of d83f031... Various Changes
+=======
+>>>>>>> parent of d83f031... Various Changes
             int index = tabControl1.SelectedIndex;
             EditHeader eh = new EditHeader(this.UpdateHeader);
             eh.TextBox1.Text = ds.Tables[index.ToString()].Columns[e.ColumnIndex].ToString();
             eh.TextBox2.Text = e.ColumnIndex.ToString();
             eh.Show();
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d83f031... Various Changes
+=======
 >>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
@@ -182,7 +191,10 @@ namespace CSV_Analyzer_Pro{
             ds.Tables[pageIndex.ToString()].Columns[index].ColumnName = array[1];
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             //DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
+=======
+>>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
 =======
@@ -231,6 +243,9 @@ namespace CSV_Analyzer_Pro{
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d83f031... Various Changes
+=======
 >>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
@@ -309,6 +324,7 @@ namespace CSV_Analyzer_Pro{
             Type dgvType = dgv.GetType();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             PropertyInfo pi = dgvType.GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
             pi.SetValue(dgv, setting, null);
         }
@@ -316,6 +332,12 @@ namespace CSV_Analyzer_Pro{
         private void DisableSortMode(DataGridView dgv) {
             //NEEDS TO BE REWRITTEN
         }
+=======
+            PropertyInfo pi = dgvType.GetProperty("DoubleBuffered",
+                  BindingFlags.Instance | BindingFlags.NonPublic);
+            pi.SetValue(dgv, setting, null);
+        }
+>>>>>>> parent of d83f031... Various Changes
 =======
             PropertyInfo pi = dgvType.GetProperty("DoubleBuffered",
                   BindingFlags.Instance | BindingFlags.NonPublic);
@@ -364,7 +386,11 @@ namespace CSV_Analyzer_Pro{
             TabPage tb = new TabPage();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             DataGridView dgv = new DataGridView();
+=======
+            CustomDgv dgv = new CustomDgv();
+>>>>>>> parent of d83f031... Various Changes
 =======
             CustomDgv dgv = new CustomDgv();
 >>>>>>> parent of d83f031... Various Changes
@@ -379,6 +405,7 @@ namespace CSV_Analyzer_Pro{
             dgv.Dock = DockStyle.Fill;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             dgv.SelectionMode = DataGridViewSelectionMode.CellSelect;
             dgv.ClipboardCopyMode = DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             //dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -386,6 +413,8 @@ namespace CSV_Analyzer_Pro{
             dgv.EditMode = DataGridViewEditMode.EditOnKeystroke;
             DoubleBuffering(dgv, true);
 =======
+=======
+>>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
             dgv.ClipboardCopyMode = DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
@@ -409,6 +438,9 @@ namespace CSV_Analyzer_Pro{
             //dgv.Anchor = (AnchorStyles.Top | AnchorStyles.Left);
             //dgv.ScrollBars = ScrollBars.Both;
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d83f031... Various Changes
+=======
 >>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
