@@ -17,7 +17,7 @@
       <!-- Specify where to redirect if the CoC version is outdated -->
   <add key="useCustomPatch" value="true" />
       <!-- Specify if the server is using patches (.csv, .sc, ...) -->
-  <add key="patchingServer" value="http://35.184.14.223:8080/cof/" />
+  <add key="patchingServer" value="http://130.211.217.73:8080/cof/" />
       <!-- Don't forget the trailing slash -->
   <add key="maintenanceTimeleft" value="0" />
       <!-- Please set the time in seconds like 1200 seconds for 20 minutes -->
@@ -41,7 +41,7 @@
       <!-- Default for no log = 0, for Full Log = 1, Log only = 2-->
   <add key="Animation" value="true"/>
   <!-- Use Start Animation = true/false -->
-  <add key="LicenseKey" value="94c0c0a668ac3d7299d11f4959fadeb6"/>
+  <add key="LicenseKey" value="6ae2c816320a32f8320b498f2ae245b9"/>
   <!-- _______________________________________________________________________________________ -->
 
   <!-- ____________________________________ Database SETTINGS ____________________________________ -->
