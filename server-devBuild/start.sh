@@ -1,1 +1,0 @@
-﻿screen mono ucs.exe

@@ -1,1 +1,0 @@
-quickbms -G -w -r
