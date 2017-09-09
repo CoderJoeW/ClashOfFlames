@@ -13,7 +13,10 @@ using Microsoft.VisualBasic.FileIO;
 using System.Threading;
 using System.Reflection;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
 
@@ -139,17 +142,23 @@ namespace CSV_Analyzer_Pro{
 
         private void OnColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 int index = tabControl1.SelectedIndex;
                 EditHeader eh = new EditHeader(this.UpdateHeader);
                 eh.TextBox1.Text = ds.Tables[index.ToString()].Columns[e.ColumnIndex].ToString();
                 eh.TextBox2.Text = e.ColumnIndex.ToString();
                 eh.Show();
 =======
+=======
+>>>>>>> parent of d83f031... Various Changes
             int index = tabControl1.SelectedIndex;
             EditHeader eh = new EditHeader(this.UpdateHeader);
             eh.TextBox1.Text = ds.Tables[index.ToString()].Columns[e.ColumnIndex].ToString();
             eh.TextBox2.Text = e.ColumnIndex.ToString();
             eh.Show();
+<<<<<<< HEAD
+>>>>>>> parent of d83f031... Various Changes
+=======
 >>>>>>> parent of d83f031... Various Changes
         }
 
@@ -172,7 +181,10 @@ namespace CSV_Analyzer_Pro{
             //Debug.WriteLine("Index: " + index + " String: " + array[1] + " Table Check: " + ds.Tables[index.ToString()].ToString() + " Column Check: " + ds.Tables[index.ToString()].Columns[index].ColumnName.ToString());
             ds.Tables[pageIndex.ToString()].Columns[index].ColumnName = array[1];
 <<<<<<< HEAD
+<<<<<<< HEAD
             //DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
+=======
+>>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
             DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
@@ -218,6 +230,9 @@ namespace CSV_Analyzer_Pro{
                 column.SortMode = DataGridViewColumnSortMode.NotSortable;
             }
         }
+<<<<<<< HEAD
+>>>>>>> parent of d83f031... Various Changes
+=======
 >>>>>>> parent of d83f031... Various Changes
         #endregion
 
@@ -293,6 +308,7 @@ namespace CSV_Analyzer_Pro{
         private void DoubleBuffering(DataGridView dgv,bool setting){
             Type dgvType = dgv.GetType();
 <<<<<<< HEAD
+<<<<<<< HEAD
             PropertyInfo pi = dgvType.GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
             pi.SetValue(dgv, setting, null);
         }
@@ -300,6 +316,12 @@ namespace CSV_Analyzer_Pro{
         private void DisableSortMode(DataGridView dgv) {
             //NEEDS TO BE REWRITTEN
         }
+=======
+            PropertyInfo pi = dgvType.GetProperty("DoubleBuffered",
+                  BindingFlags.Instance | BindingFlags.NonPublic);
+            pi.SetValue(dgv, setting, null);
+        }
+>>>>>>> parent of d83f031... Various Changes
 =======
             PropertyInfo pi = dgvType.GetProperty("DoubleBuffered",
                   BindingFlags.Instance | BindingFlags.NonPublic);
@@ -341,7 +363,11 @@ namespace CSV_Analyzer_Pro{
         private void NewWindow() {
             TabPage tb = new TabPage();
 <<<<<<< HEAD
+<<<<<<< HEAD
             DataGridView dgv = new DataGridView();
+=======
+            CustomDgv dgv = new CustomDgv();
+>>>>>>> parent of d83f031... Various Changes
 =======
             CustomDgv dgv = new CustomDgv();
 >>>>>>> parent of d83f031... Various Changes
@@ -352,6 +378,7 @@ namespace CSV_Analyzer_Pro{
             #region DataGridView Contructing
             dgv.Dock = DockStyle.Fill;
 <<<<<<< HEAD
+<<<<<<< HEAD
             dgv.SelectionMode = DataGridViewSelectionMode.CellSelect;
             dgv.ClipboardCopyMode = DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             //dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -359,6 +386,8 @@ namespace CSV_Analyzer_Pro{
             dgv.EditMode = DataGridViewEditMode.EditOnKeystroke;
             DoubleBuffering(dgv, true);
 =======
+=======
+>>>>>>> parent of d83f031... Various Changes
             dgv.ClipboardCopyMode = DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             dgv.BackgroundColor = Color.White;
             dgv.RowHeadersVisible = false;
@@ -379,6 +408,9 @@ namespace CSV_Analyzer_Pro{
             //Retired
             //dgv.Anchor = (AnchorStyles.Top | AnchorStyles.Left);
             //dgv.ScrollBars = ScrollBars.Both;
+<<<<<<< HEAD
+>>>>>>> parent of d83f031... Various Changes
+=======
 >>>>>>> parent of d83f031... Various Changes
             #endregion
 
