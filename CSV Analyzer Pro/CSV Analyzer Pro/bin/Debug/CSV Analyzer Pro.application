@@ -10,8 +10,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <dependentAssembly dependencyType="install" codebase="CSV Analyzer Pro.exe.manifest" size="6166">
       <assemblyIdentity name="CSV Analyzer Pro.exe" version="0.0.3.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+=======
+    <dependentAssembly dependencyType="install" codebase="CSV Analyzer Pro.exe.manifest" size="3982">
+      <assemblyIdentity name="CSV Analyzer Pro.exe" version="0.0.2.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+>>>>>>> parent of d83f031... Various Changes
 =======
     <dependentAssembly dependencyType="install" codebase="CSV Analyzer Pro.exe.manifest" size="3982">
       <assemblyIdentity name="CSV Analyzer Pro.exe" version="0.0.2.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
@@ -32,7 +37,11 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <dsig:DigestValue>vioVNRDXT8H2G9+TzXEhISWrVUmAmky5DJ/M8enfdrQ=</dsig:DigestValue>
+=======
+        <dsig:DigestValue>CYsEpH6Ri/wovrI5e6/QHFyygk8wR3rxyk3w5RTTIds=</dsig:DigestValue>
+>>>>>>> parent of d83f031... Various Changes
 =======
         <dsig:DigestValue>CYsEpH6Ri/wovrI5e6/QHFyygk8wR3rxyk3w5RTTIds=</dsig:DigestValue>
 >>>>>>> parent of d83f031... Various Changes

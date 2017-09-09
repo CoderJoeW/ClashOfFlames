@@ -15,7 +15,10 @@ using System.Reflection;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
 =======
@@ -146,12 +149,15 @@ namespace CSV_Analyzer_Pro{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 int index = tabControl1.SelectedIndex;
                 EditHeader eh = new EditHeader(this.UpdateHeader);
                 eh.TextBox1.Text = ds.Tables[index.ToString()].Columns[e.ColumnIndex].ToString();
                 eh.TextBox2.Text = e.ColumnIndex.ToString();
                 eh.Show();
 =======
+=======
+>>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
 =======
@@ -163,6 +169,9 @@ namespace CSV_Analyzer_Pro{
             eh.Show();
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d83f031... Various Changes
+=======
 >>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
@@ -191,7 +200,10 @@ namespace CSV_Analyzer_Pro{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             //DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
+=======
+>>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
 =======
@@ -243,6 +255,9 @@ namespace CSV_Analyzer_Pro{
         }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d83f031... Various Changes
+=======
 >>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
@@ -329,6 +344,7 @@ namespace CSV_Analyzer_Pro{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             PropertyInfo pi = dgvType.GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
             pi.SetValue(dgv, setting, null);
         }
@@ -336,6 +352,12 @@ namespace CSV_Analyzer_Pro{
         private void DisableSortMode(DataGridView dgv) {
             //NEEDS TO BE REWRITTEN
         }
+=======
+            PropertyInfo pi = dgvType.GetProperty("DoubleBuffered",
+                  BindingFlags.Instance | BindingFlags.NonPublic);
+            pi.SetValue(dgv, setting, null);
+        }
+>>>>>>> parent of d83f031... Various Changes
 =======
             PropertyInfo pi = dgvType.GetProperty("DoubleBuffered",
                   BindingFlags.Instance | BindingFlags.NonPublic);
@@ -391,7 +413,11 @@ namespace CSV_Analyzer_Pro{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             DataGridView dgv = new DataGridView();
+=======
+            CustomDgv dgv = new CustomDgv();
+>>>>>>> parent of d83f031... Various Changes
 =======
             CustomDgv dgv = new CustomDgv();
 >>>>>>> parent of d83f031... Various Changes
@@ -410,6 +436,7 @@ namespace CSV_Analyzer_Pro{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
             dgv.SelectionMode = DataGridViewSelectionMode.CellSelect;
             dgv.ClipboardCopyMode = DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             //dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
@@ -417,6 +444,8 @@ namespace CSV_Analyzer_Pro{
             dgv.EditMode = DataGridViewEditMode.EditOnKeystroke;
             DoubleBuffering(dgv, true);
 =======
+=======
+>>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
 =======
@@ -443,6 +472,9 @@ namespace CSV_Analyzer_Pro{
             //dgv.ScrollBars = ScrollBars.Both;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of d83f031... Various Changes
+=======
 >>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
@@ -508,6 +540,12 @@ namespace CSV_Analyzer_Pro{
 
         private void InsertRowAfter() {
             int tabCIndex = tabControl1.SelectedIndex;
+<<<<<<< HEAD
+=======
+
+            if(tabCIndex == 0){return;}
+
+>>>>>>> parent of d83f031... Various Changes
             DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
             DataRow dr;
             dr = ds.Tables[tabCIndex.ToString()].NewRow();
@@ -518,6 +556,12 @@ namespace CSV_Analyzer_Pro{
 
         private void InsertRowBefore() {
             int tabCIndex = tabControl1.SelectedIndex;
+<<<<<<< HEAD
+=======
+
+            if(tabCIndex == 0){return;}
+
+>>>>>>> parent of d83f031... Various Changes
             DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
             DataRow dr;
             dr = ds.Tables[tabCIndex.ToString()].NewRow();
