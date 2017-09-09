@@ -1,0 +1,359 @@
+Log file created at 8/8/2017 9:03:55 PM
+
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 9:19:54 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 9:19:54 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 9:19:54 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 9:19:57 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 9:19:57 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 9:19:57 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 9:19:59 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 9:19:59 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 9:19:59 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 9:20:02 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 9:20:02 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 9:20:02 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:20:03 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 9:21:24 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 9:21:24 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 9:21:24 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 9:21:29 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 9:21:29 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 9:21:29 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:21:46 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:21:49 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:21:52 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:21:59 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:01 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:04 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:06 PM
+[LOG]    Message ChangeAvatarNameMessage (10212) is handled at 8/8/2017 9:22:07 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:08 PM
+[LOG]    Command 3 has not been handled. at 8/8/2017 9:22:08 PM
+[LOG]    Message AskForAvatarProfileMessage (14325) is handled at 8/8/2017 9:22:09 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:09 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:10 PM
+[LOG]    Command '519' is handled at 8/8/2017 9:22:10 PM
+[LOG]    Message GetDeviceTokenMessage (10113) is handled at 8/8/2017 9:22:12 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:14 PM
+[LOG]    Command '506' is handled at 8/8/2017 9:22:14 PM
+[LOG]    Command '506' is handled at 8/8/2017 9:22:14 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:14 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:16 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:20 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:21 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:25 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:26 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:30 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:31 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:35 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:36 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:40 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:41 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:45 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:46 PM
+[LOG]    Message AskForAvatarProfileMessage (14325) is handled at 8/8/2017 9:22:46 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:49 PM
+[LOG]    Command '523' is handled at 8/8/2017 9:22:49 PM
+[LOG]    Command '523' is handled at 8/8/2017 9:22:49 PM
+[LOG]    Command '523' is handled at 8/8/2017 9:22:49 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:50 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:51 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:22:55 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:22:56 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:23:00 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:23:01 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:23:05 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:23:06 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 9:59:24 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 9:59:24 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 9:59:24 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:59:31 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:59:32 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:59:35 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:59:36 PM
+[LOG]    Command '506' is handled at 8/8/2017 9:59:36 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 9:59:46 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 9:59:46 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 9:59:46 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:59:52 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:59:53 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 9:59:57 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 9:59:58 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:00:02 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:00:03 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:00:07 PM
+[LOG]    Message GetDeviceTokenMessage (10113) is handled at 8/8/2017 10:00:07 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:00:08 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:00:12 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:00:13 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:00:17 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 10:00:20 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 10:00:20 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 10:00:20 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 10:00:23 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 10:00:23 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 10:00:23 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:00:26 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:00:27 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 10:00:37 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 10:00:38 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 10:00:38 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 10:01:21 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 10:01:21 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 10:01:21 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:01:27 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:01:28 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:01:31 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:01:32 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:01:36 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:01:37 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:01:41 PM
+[LOG]    Message GetDeviceTokenMessage (10113) is handled at 8/8/2017 10:01:42 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:01:42 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:01:46 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:01:47 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:01:51 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:01:52 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:01:56 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:01:57 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:01 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:02 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:06 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:07 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:11 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:12 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:16 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:17 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:21 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:22 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:26 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:27 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:31 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:32 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:36 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:38 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:41 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:43 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:47 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:48 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:52 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:53 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:02:57 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:02:58 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:02 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:03 PM
+[LOG]    Message NewsSeenMessage (10905) is handled at 8/8/2017 10:03:05 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:05 PM
+[LOG]    Command '590' is handled at 8/8/2017 10:03:05 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:07 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:08 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:12 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:13 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:14 PM
+[LOG]    Command '506' is handled at 8/8/2017 10:03:14 PM
+[LOG]    Command '506' is handled at 8/8/2017 10:03:14 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:17 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:18 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:22 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:23 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:27 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:28 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:32 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:33 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:37 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:38 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:42 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:43 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:47 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:48 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:52 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:53 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:03:57 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:03:58 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:02 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:03 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:07 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:08 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:12 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:13 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:17 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:18 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:22 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:23 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:27 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:28 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:32 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:33 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:37 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:38 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:42 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:43 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:47 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:48 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:52 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:53 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:04:57 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:04:58 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:05:02 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:05:03 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:05:07 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:05:08 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:05:12 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:05:13 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:05:17 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:05:18 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:05:22 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:05:23 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:05:27 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:05:28 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 10:20:37 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 10:20:37 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 10:20:37 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 10:20:39 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 10:20:40 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 10:20:40 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:20:46 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:20:47 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:20:51 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:20:52 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:20:56 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:20:57 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:21:01 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:21:01 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:21:01 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:21:01 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:21:01 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:21:01 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:21:01 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:21:01 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:21:01 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:21:01 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:21:01 PM
+[LOG]    Message GetDeviceTokenMessage (10113) is handled at 8/8/2017 10:21:02 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:21:02 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 10:22:49 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 10:22:50 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 10:22:50 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 10:22:52 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 10:22:52 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 10:22:52 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:22:57 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:22:59 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:23:01 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:02 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:05 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:05 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:05 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:05 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:05 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:05 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:05 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:05 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:05 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:05 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:05 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:23:06 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:07 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:09 PM
+[LOG]    Command '500' is handled at 8/8/2017 10:23:09 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:23:11 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:12 PM
+[LOG]    Message GetDeviceTokenMessage (10113) is handled at 8/8/2017 10:23:13 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:14 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:23:16 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:17 PM
+[LOG]    Message SendGlobalChatLineMessage (14715) is handled at 8/8/2017 10:23:17 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:19 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:21 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:21 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:21 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:21 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:21 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:21 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:21 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:21 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:21 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:21 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:21 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:23:21 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:22 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:24 PM
+[LOG]    Command '500' is handled at 8/8/2017 10:23:24 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:25 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:26 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:26 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:26 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:26 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:26 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:26 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:26 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:26 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:26 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:26 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:26 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:23:26 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:28 PM
+[LOG]    Command '500' is handled at 8/8/2017 10:23:28 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:23:31 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:32 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:23:36 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:37 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:39 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:39 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:39 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:39 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:39 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:39 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:39 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:39 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:39 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:39 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:23:39 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:23:41 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:23:42 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 10:28:43 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 10:28:43 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 10:28:43 PM
+[LOG]    New client connected -> 75.183.93.182 at 8/8/2017 10:28:46 PM
+[LOG]    Message SessionRequest (10100) is handled at 8/8/2017 10:28:46 PM
+[LOG]    Message LoginMessage (10101) is handled at 8/8/2017 10:28:46 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:28:51 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:28:54 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:28:55 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:28:57 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:29:01 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:29:02 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:29:06 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:29:07 PM
+[LOG]    Message GetDeviceTokenMessage (10113) is handled at 8/8/2017 10:29:08 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:29:08 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:29:08 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:29:08 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:29:08 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:29:08 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:29:08 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:29:08 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:29:08 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:29:08 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:29:08 PM
+[LOG]    Command '532' is handled at 8/8/2017 10:29:08 PM
+[LOG]    Message KeepAliveMessage (10108) is handled at 8/8/2017 10:29:11 PM
+[LOG]    Message ExecuteCommandsMessage (14102) is handled at 8/8/2017 10:29:12 PM
