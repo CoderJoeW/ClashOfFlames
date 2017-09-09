@@ -1,0 +1,15 @@
+Added
+
+Changed
+-Redesigned GridView to look much nicer
+-You no longer have to double click a cell to edit now you can click on a cell and start typing
+
+Fixed
+
+TODO
+-Fix search functionality
+-Add Ctrl+F command
+-Fix crash bug when opening a file(Occurs often unknown cause)
+-Rewrite sorting mode function
+-Fix cross threading
+-Fix bug causing datagrid to slow down
