@@ -12,7 +12,10 @@ using System.Windows.Forms;
 using Microsoft.VisualBasic.FileIO;
 using System.Threading;
 using System.Reflection;
+<<<<<<< HEAD
 
+=======
+>>>>>>> parent of d83f031... Various Changes
 
 namespace CSV_Analyzer_Pro{
     public partial class Form1 : Form{
@@ -135,11 +138,19 @@ namespace CSV_Analyzer_Pro{
         }
 
         private void OnColumnHeaderMouseClick(object sender, DataGridViewCellMouseEventArgs e) {
+<<<<<<< HEAD
                 int index = tabControl1.SelectedIndex;
                 EditHeader eh = new EditHeader(this.UpdateHeader);
                 eh.TextBox1.Text = ds.Tables[index.ToString()].Columns[e.ColumnIndex].ToString();
                 eh.TextBox2.Text = e.ColumnIndex.ToString();
                 eh.Show();
+=======
+            int index = tabControl1.SelectedIndex;
+            EditHeader eh = new EditHeader(this.UpdateHeader);
+            eh.TextBox1.Text = ds.Tables[index.ToString()].Columns[e.ColumnIndex].ToString();
+            eh.TextBox2.Text = e.ColumnIndex.ToString();
+            eh.Show();
+>>>>>>> parent of d83f031... Various Changes
         }
 
         private void OnSearchCalled() {
@@ -160,12 +171,14 @@ namespace CSV_Analyzer_Pro{
             int index = int.Parse(array[0]);
             //Debug.WriteLine("Index: " + index + " String: " + array[1] + " Table Check: " + ds.Tables[index.ToString()].ToString() + " Column Check: " + ds.Tables[index.ToString()].Columns[index].ColumnName.ToString());
             ds.Tables[pageIndex.ToString()].Columns[index].ColumnName = array[1];
+<<<<<<< HEAD
             //DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
+=======
+>>>>>>> parent of d83f031... Various Changes
             DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
         }
 
         private void SearchFor(string val) {
-            //BROKEN CODE
             DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
             dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             int pageIndex = tabControl1.SelectedIndex;
@@ -197,6 +210,15 @@ namespace CSV_Analyzer_Pro{
                 MessageBox.Show("Error: " + e.Message);
             }
         }
+<<<<<<< HEAD
+=======
+
+        private void DisableSortMode(DataGridView dgv) {
+            foreach (DataGridViewColumn column in dgv.Columns) {
+                column.SortMode = DataGridViewColumnSortMode.NotSortable;
+            }
+        }
+>>>>>>> parent of d83f031... Various Changes
         #endregion
 
         #region DataHandling
@@ -270,6 +292,7 @@ namespace CSV_Analyzer_Pro{
         #region Helpers
         private void DoubleBuffering(DataGridView dgv,bool setting){
             Type dgvType = dgv.GetType();
+<<<<<<< HEAD
             PropertyInfo pi = dgvType.GetProperty("DoubleBuffered", BindingFlags.Instance | BindingFlags.NonPublic);
             pi.SetValue(dgv, setting, null);
         }
@@ -277,6 +300,12 @@ namespace CSV_Analyzer_Pro{
         private void DisableSortMode(DataGridView dgv) {
             //NEEDS TO BE REWRITTEN
         }
+=======
+            PropertyInfo pi = dgvType.GetProperty("DoubleBuffered",
+                  BindingFlags.Instance | BindingFlags.NonPublic);
+            pi.SetValue(dgv, setting, null);
+        }
+>>>>>>> parent of d83f031... Various Changes
         #endregion
 
         #region Exiting Functions
@@ -311,19 +340,46 @@ namespace CSV_Analyzer_Pro{
         #region Commands
         private void NewWindow() {
             TabPage tb = new TabPage();
+<<<<<<< HEAD
             DataGridView dgv = new DataGridView();
+=======
+            CustomDgv dgv = new CustomDgv();
+>>>>>>> parent of d83f031... Various Changes
             DataTable dt = new DataTable();
 
             tb.Text = "New..";
 
             #region DataGridView Contructing
             dgv.Dock = DockStyle.Fill;
+<<<<<<< HEAD
             dgv.SelectionMode = DataGridViewSelectionMode.CellSelect;
             dgv.ClipboardCopyMode = DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             //dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             //dgv.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             dgv.EditMode = DataGridViewEditMode.EditOnKeystroke;
             DoubleBuffering(dgv, true);
+=======
+            dgv.ClipboardCopyMode = DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
+            dgv.BackgroundColor = Color.White;
+            dgv.RowHeadersVisible = false;
+            dgv.GridColor = Color.LightGray;
+            dgv.BorderStyle = BorderStyle.None;
+            dgv.EnableHeadersVisualStyles = false;
+            dgv.VirtualMode = true;
+
+            dgv.ColumnHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.LightGray;
+            dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.Black;
+            dgv.ColumnHeadersHeight = 30;
+            DoubleBuffering(dgv, true);
+            //dgv.GetType.InvokeMember("DoubleBuffered", Reflection.BindingFlags.NonPublic Or _Reflection.BindingFlags.Instance Or System.Reflection.BindingFlags.SetProperty, Nothing, dgv, New Object() { True});
+
+            //dgv.Columns(1).DefaultCellStyle.BackColor = Color.Yellow
+
+            //Retired
+            //dgv.Anchor = (AnchorStyles.Top | AnchorStyles.Left);
+            //dgv.ScrollBars = ScrollBars.Both;
+>>>>>>> parent of d83f031... Various Changes
             #endregion
 
             tb.Controls.Add(dgv);

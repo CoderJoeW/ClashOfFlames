@@ -31,7 +31,10 @@ C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyze
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\bin\Debug\CSV Analyzer Pro.pdb
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.exe.manifest
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.application
+<<<<<<< HEAD
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.exe.licenses
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\bin\Debug\TenTec.Windows.iGridLib.iGrid.v4.6.dll
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.iGrid Sample VB.resources
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\bin\Debug\AdvancedDataGridView.dll
+=======
+>>>>>>> parent of d83f031... Various Changes
