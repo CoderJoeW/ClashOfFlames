@@ -12,6 +12,7 @@ C:\Users\flameforged\documents\visual studio 2015\Projects\CSV Analyzer Pro\CSV 
 C:\Users\flameforged\documents\visual studio 2015\Projects\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.UpdateAvailable.resources
 C:\Users\flameforged\documents\visual studio 2015\Projects\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.EditHeader.resources
 C:\Users\flameforged\documents\visual studio 2015\Projects\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV_Analyzer_Pro.Search.resources
+<<<<<<< HEAD
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.csprojResolveAssemblyReference.cache
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.exe
 C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyzer Pro\obj\Debug\CSV Analyzer Pro.pdb
@@ -44,3 +45,5 @@ C:\Users\flameforged\Documents\GitHub\ClashOfFlames\CSV Analyzer Pro\CSV Analyze
 >>>>>>> parent of d83f031... Various Changes
 =======
 >>>>>>> parent of d83f031... Various Changes
+=======
+>>>>>>> parent of a8053d6... Build CAB files

@@ -103,8 +103,7 @@ namespace CSV_Analyzer_Pro{
         }
 
         private void findToolStripMenuItem_Click(object sender, EventArgs e) {
-            MessageBox.Show("This feature is currently disabled");
-            //OnSearchCalled();
+            OnSearchCalled();
         }
 
         #endregion
@@ -319,8 +318,13 @@ namespace CSV_Analyzer_Pro{
         }
         #endregion
 
+<<<<<<< HEAD
         #region Helpers
         private void DoubleBuffering(DataGridView dgv,bool setting){
+=======
+        #region Helper Functions
+        private void DoubleBuffering(DataGridView dgv, bool setting) {
+>>>>>>> parent of a8053d6... Build CAB files
             Type dgvType = dgv.GetType();
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -454,8 +458,6 @@ namespace CSV_Analyzer_Pro{
         private void Save(string filePath) {
             int index = tabControl1.SelectedIndex;
 
-            if(index == 0){return;}
-
             StringBuilder sb = new StringBuilder();
 
             IEnumerable<string> columnNames = ds.Tables[index.ToString()].Columns.Cast<DataColumn>().
@@ -476,10 +478,6 @@ namespace CSV_Analyzer_Pro{
         }
 
         private void SaveAs() {
-            int index = tabControl1.SelectedIndex;
-
-            if(index == 0){return;}
-
             string savePath = "";
 
             SaveFileDialog saveAs = new SaveFileDialog();
@@ -505,17 +503,11 @@ namespace CSV_Analyzer_Pro{
 
         private void InsertRowNew() {
             int index = tabControl1.SelectedIndex;
-
-            if(index == 0){return;}
-
             ds.Tables[index.ToString()].Rows.Add("");
         }
 
         private void InsertRowAfter() {
             int tabCIndex = tabControl1.SelectedIndex;
-
-            if(tabCIndex == 0){return;}
-
             DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
             DataRow dr;
             dr = ds.Tables[tabCIndex.ToString()].NewRow();
@@ -526,9 +518,6 @@ namespace CSV_Analyzer_Pro{
 
         private void InsertRowBefore() {
             int tabCIndex = tabControl1.SelectedIndex;
-
-            if(tabCIndex == 0){return;}
-
             DataGridView dgv = tabControl1.SelectedTab.Controls.OfType<DataGridView>().First();
             DataRow dr;
             dr = ds.Tables[tabCIndex.ToString()].NewRow();
@@ -538,9 +527,6 @@ namespace CSV_Analyzer_Pro{
 
         private void InsertColumnNew() {
             int index = tabControl1.SelectedIndex;
-
-            if(index == 0){return;}
-
             ds.Tables[index.ToString()].Columns.Add("");
             DisableSortMode(tabControl1.SelectedTab.Controls.OfType<DataGridView>().First());
         }
